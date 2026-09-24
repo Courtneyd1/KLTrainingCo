@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 96" role="img" aria-labelledby="title desc">
+  <title id="title">KL Training Co. logo</title>
+  <desc id="desc">Geometric KL monogram in charcoal and burnt orange.</desc>
+  <g fill="#20262a">
+    <path d="M18 8h20v30L18 56V8Zm0 48 20-18v50H18V56Zm34-8 18-17 31 49H77L52 48Zm18-17L111 8v22L70 68 52 48 70 31Z"/>
+    <path d="M108 58V31l20-18v45l19 30h-22l-17-30Z" fill="#c7633d"/>
+    <path d="M147 68h54v20h-54z"/>
+  </g>
+</svg>
