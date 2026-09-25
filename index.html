@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -29,7 +29,7 @@
           <a href="#pricing">Pricing</a>
           <a href="#contact">Contact</a>
         </div>
-        <a class="button button-primary" href="#contact">Book a course</a>
+        <a class="button button-primary" href="#contact">Book Now!</a>
       </nav>
     </header>
 
@@ -64,35 +64,27 @@
             </div>
           </div>
 
-          <div class="hero-panel" aria-label="Product preview card">
+          <div class="hero-panel results-carousel" aria-label="Client results">
             <div class="panel-top">
-              <span class="dot red"></span>
-              <span class="dot yellow"></span>
-              <span class="dot green"></span>
+              <span class="mini-label">Client results</span>
             </div>
 
             <div class="panel-body">
-              <div class="mini-card">
-                <span class="mini-label">Pipeline</span>
-                <strong>78%</strong>
-                <small>Growth this quarter</small>
+              <div class="carousel-viewport" aria-live="polite">
+                <figure class="carousel-slide is-active">
+                  <img src=".vscode/client-1.JPG" alt="KL Training Co. client showing strength and progress" />
+                  <figcaption>Strength, confidence, consistency.</figcaption>
+                </figure>
+                <figure class="carousel-slide">
+                  <img src=".vscode/client-2.JPG" alt="KL Training Co. client progress result" />
+                  <figcaption>Progress built one session at a time.</figcaption>
+                </figure>
               </div>
 
-              <div class="chart-bars" aria-hidden="true">
-                <span style="height: 32%"></span>
-                <span style="height: 48%"></span>
-                <span style="height: 58%"></span>
-                <span style="height: 72%"></span>
-                <span style="height: 88%"></span>
-                <span style="height: 100%"></span>
-              </div>
-
-              <div class="list-row">
-                <div>
-                  <small>Qualified leads</small>
-                  <strong>1,284</strong>
-                </div>
-                <div class="badge">+24%</div>
+              <div class="carousel-controls" hidden>
+                <button class="carousel-button" type="button" data-carousel="previous" aria-label="Previous client result">&#8592;</button>
+                <div class="carousel-dots" aria-label="Client result slides"></div>
+                <button class="carousel-button" type="button" data-carousel="next" aria-label="Next client result">&#8594;</button>
               </div>
             </div>
           </div>
