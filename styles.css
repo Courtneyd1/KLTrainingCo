@@ -374,6 +374,80 @@ img {
   gap: 1.5rem;
 }
 
+.session-pricing {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr 0.8fr;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  background: rgba(255, 250, 243, 0.82);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.session-intro h3,
+.app-coaching-heading h3 {
+  margin: 0 0 0.75rem;
+  font-size: 1.5rem;
+}
+
+.session-intro p,
+.plan p {
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.session-rate {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.session-rate strong {
+  font-size: 2.7rem;
+  line-height: 1;
+}
+
+.session-rate span,
+.session-packages span {
+  color: var(--muted);
+}
+
+.session-packages {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.session-packages div {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-bottom: 0.65rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.session-packages span {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.app-coaching-heading {
+  margin: 4rem 0 1.5rem;
+}
+
+.app-coaching-grid .plan {
+  border-radius: 8px;
+}
+
+.pricing-note {
+  max-width: 760px;
+  margin: 1.5rem auto 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
 .feature-card,
 .plan {
   background: rgba(255, 250, 243, 0.82);
@@ -454,10 +528,13 @@ img {
 }
 
 .plan li::before {
-  content: "✓";
-  color: var(--primary-dark);
-  font-weight: 700;
-  margin-right: 0.5rem;
+  content: "";
+  display: inline-block;
+  width: 0.45rem;
+  height: 0.45rem;
+  margin: 0 0.65rem 0.1rem 0;
+  border-radius: 50%;
+  background: var(--primary);
 }
 
 .price {
@@ -540,7 +617,8 @@ img {
   .hero-grid,
   .about,
   .feature-grid,
-  .pricing-grid {
+  .pricing-grid,
+  .session-pricing {
     grid-template-columns: 1fr;
   }
 
@@ -552,5 +630,10 @@ img {
   .footer-inner {
     flex-direction: column;
     text-align: center;
+  }
+
+  .session-pricing {
+    gap: 1.5rem;
+    padding: 1.5rem;
   }
 }
